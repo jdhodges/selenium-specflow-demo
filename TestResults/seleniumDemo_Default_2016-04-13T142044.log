@@ -1,0 +1,97 @@
+﻿VS filter: testpath:TestAssembly:seleniumDemo/Feature:Add+todo+items/Scenario:Add+one+todo+item | testpath:TestAssembly:seleniumDemo/Feature:Add+todo+items/Scenario:Add+two+todo+items
+Discovering target: Default
+Discovering tests from assembly: C:\Dev\seleniumDemo\seleniumDemo\bin\Debug\seleniumDemo.dll
+Appdomain Disposed
+Test Suite Dump
+#0: seleniumDemo/Default - 
+#1: Default - 
+#2: seleniumDemo - 
+#6: Add todo items - 
+#7: Add one todo item - TestAssembly:seleniumDemo/Feature:Add+todo+items/Scenario:Add+one+todo+item
+#8: Add two todo items - TestAssembly:seleniumDemo/Feature:Add+todo+items/Scenario:Add+two+todo+items
+End: Test Suite Dump -- X
+Scheduler: considering #7 for thread #0
+Scheduler: using #7 for thread #0
+Test #7 is scheduled for thread #0
+Thread #0: creating new test thread executor for seleniumDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\jhodges\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #7/0 is started on thread #0
+B:When I have entered "Hello" into the text field
+T:binding error: Ambiguous step definitions found for step 'When I have entered "Hello" into the text field': AddTodoItemsSteps.WhenIHaveEnteredIntoTheTextField(String), TodoSteps.WhenIHaveEnteredIntoTheTextField(String)
+B:And I press enter
+T:binding error: Ambiguous step definitions found for step 'When I press enter': AddTodoItemsSteps.WhenIPressEnter(), TodoSteps.WhenIPressEnter()
+B:Then there should be 1 todo item with text "Hello"
+T:skipped because of previous errors
+Scheduler: dequeuing a rescheduled item: 7
+Scheduler: considering #7 for thread #0
+Scheduler: using #7 for thread #0
+Test #7 is scheduled for thread #0
+Test #7 is finished on thread #0 as Failed within 3.9473947 seconds
+Test #7/1 is started on thread #0
+B:When I have entered "Hello" into the text field
+T:binding error: Ambiguous step definitions found for step 'When I have entered "Hello" into the text field': AddTodoItemsSteps.WhenIHaveEnteredIntoTheTextField(String), TodoSteps.WhenIHaveEnteredIntoTheTextField(String)
+B:And I press enter
+T:binding error: Ambiguous step definitions found for step 'When I press enter': AddTodoItemsSteps.WhenIPressEnter(), TodoSteps.WhenIPressEnter()
+B:Then there should be 1 todo item with text "Hello"
+T:skipped because of previous errors
+Scheduler: dequeuing a rescheduled item: 7
+Scheduler: considering #7 for thread #0
+Scheduler: using #7 for thread #0
+Test #7 is scheduled for thread #0
+Test #7 is finished on thread #0 as Failed within 0.0020002 seconds
+Test #7/2 is started on thread #0
+B:When I have entered "Hello" into the text field
+T:binding error: Ambiguous step definitions found for step 'When I have entered "Hello" into the text field': AddTodoItemsSteps.WhenIHaveEnteredIntoTheTextField(String), TodoSteps.WhenIHaveEnteredIntoTheTextField(String)
+B:And I press enter
+T:binding error: Ambiguous step definitions found for step 'When I press enter': AddTodoItemsSteps.WhenIPressEnter(), TodoSteps.WhenIPressEnter()
+B:Then there should be 1 todo item with text "Hello"
+T:skipped because of previous errors
+Scheduler: considering #8 for thread #0
+Scheduler: using #8 for thread #0
+Test #8 is scheduled for thread #0
+Test #7 is finished on thread #0 as Failed within 0.0010001 seconds
+Test #8/0 is started on thread #0
+B:Given I have added 1 todo with the text "Hello"
+T:error: Assert.AreEqual failed. Expected:<0>. Actual:<1>. 
+B:When I have entered "Hello" into the text field
+T:binding error: Ambiguous step definitions found for step 'When I have entered "Hello" into the text field': AddTodoItemsSteps.WhenIHaveEnteredIntoTheTextField(String), TodoSteps.WhenIHaveEnteredIntoTheTextField(String)
+B:And I press enter
+T:binding error: Ambiguous step definitions found for step 'When I press enter': AddTodoItemsSteps.WhenIPressEnter(), TodoSteps.WhenIPressEnter()
+B:Then there should be 2 todo items displayed
+T:skipped because of previous errors
+Scheduler: dequeuing a rescheduled item: 8
+Scheduler: considering #8 for thread #0
+Scheduler: using #8 for thread #0
+Test #8 is scheduled for thread #0
+Test #8 is finished on thread #0 as Failed within 0.0430043 seconds
+Test #8/1 is started on thread #0
+B:Given I have added 1 todo with the text "Hello"
+T:error: Assert.AreEqual failed. Expected:<0>. Actual:<1>. 
+B:When I have entered "Hello" into the text field
+T:binding error: Ambiguous step definitions found for step 'When I have entered "Hello" into the text field': AddTodoItemsSteps.WhenIHaveEnteredIntoTheTextField(String), TodoSteps.WhenIHaveEnteredIntoTheTextField(String)
+B:And I press enter
+T:binding error: Ambiguous step definitions found for step 'When I press enter': AddTodoItemsSteps.WhenIPressEnter(), TodoSteps.WhenIPressEnter()
+B:Then there should be 2 todo items displayed
+T:skipped because of previous errors
+Scheduler: dequeuing a rescheduled item: 8
+Scheduler: considering #8 for thread #0
+Scheduler: using #8 for thread #0
+Test #8 is scheduled for thread #0
+Test #8 is finished on thread #0 as Failed within 0.0150015 seconds
+Test #8/2 is started on thread #0
+B:Given I have added 1 todo with the text "Hello"
+T:error: Assert.AreEqual failed. Expected:<0>. Actual:<1>. 
+B:When I have entered "Hello" into the text field
+T:binding error: Ambiguous step definitions found for step 'When I have entered "Hello" into the text field': AddTodoItemsSteps.WhenIHaveEnteredIntoTheTextField(String), TodoSteps.WhenIHaveEnteredIntoTheTextField(String)
+B:And I press enter
+T:binding error: Ambiguous step definitions found for step 'When I press enter': AddTodoItemsSteps.WhenIPressEnter(), TodoSteps.WhenIPressEnter()
+B:Then there should be 2 todo items displayed
+T:skipped because of previous errors
+Test #8 is finished on thread #0 as Failed within 0.0530053 seconds
+Appdomain Disposed
+Total: 2 (test executions: 6)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2

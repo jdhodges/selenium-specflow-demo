@@ -1,0 +1,32 @@
+﻿Discovering target: Default
+Discovering tests from assembly: C:\Dev\seleniumDemo\seleniumDemo\bin\Debug\seleniumDemo.dll
+Appdomain Disposed
+Test Suite Dump
+#0: seleniumDemo/Default - 
+#1: Default - 
+#2: seleniumDemo - 
+#3: AddTodo - 
+#4: Add todo - TestAssembly:seleniumDemo/Feature:AddTodo/Scenario:Add+todo
+End: Test Suite Dump -- X
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for seleniumDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\jhodges\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given I have entered "Hello" into the text field
+T:pending: AddTodoSteps.GivenIHaveEnteredIntoTheTextField("Hello")
+B:When I press enter
+T:skipped because of previous errors
+B:Then there should be a new todo with text "Hello" on the screen
+T:skipped because of previous errors
+T:Pending: One or more step definitions are not implemented yet.
+T:  AddTodoSteps.GivenIHaveEnteredIntoTheTextField("Hello")
+Test #4 is finished on thread #0 as Pending within 0.3588023 seconds
+Appdomain Disposed
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 1
+Skipped: 0
+Failed: 0

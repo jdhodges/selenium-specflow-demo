@@ -1,0 +1,35 @@
+﻿VS filter: testpath:TestAssembly:seleniumDemo/Feature:Filter+todo+items/Scenario:Add+three+todo+items
+Discovering target: Default
+Discovering tests from assembly: C:\Dev\seleniumDemo\seleniumDemo\bin\Debug\seleniumDemo.dll
+Appdomain Disposed
+Test Suite Dump
+#0: seleniumDemo/Default - 
+#1: Default - 
+#2: seleniumDemo - 
+#13: Filter todo items - 
+#14: Add three todo items - TestAssembly:seleniumDemo/Feature:Filter+todo+items/Scenario:Add+three+todo+items
+End: Test Suite Dump -- X
+Scheduler: considering #14 for thread #0
+Scheduler: using #14 for thread #0
+Test #14 is scheduled for thread #0
+Thread #0: creating new test thread executor for seleniumDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\jhodges\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #14/0 is started on thread #0
+B:When I add 3 todo items
+T:done: FilterTodoItemsSteps.WhenIAddTodoItems(3) (0.2s)
+B:Then there should be 3 todo items in the list
+T:done: AddRemoveEditTodoItemsSteps.ThenThereShouldBeXTodoItemsInTheList(3) (0.0s)
+B:And the 1st todo item should be "1"
+T:done: AddRemoveEditTodoItemsSteps.ThenTheTodoItemAtIndexShouldBe(1, "1") (0.0s)
+B:And the 2nd todo item should be "2"
+T:done: AddRemoveEditTodoItemsSteps.ThenTheTodoItemAtIndexShouldBe(2, "2") (0.0s)
+B:And the 3rd todo item should be "3"
+T:done: AddRemoveEditTodoItemsSteps.ThenTheTodoItemAtIndexShouldBe(3, "3") (0.0s)
+Test #14 is finished on thread #0 as Succeeded within 3.9051861 seconds
+Appdomain Disposed
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
